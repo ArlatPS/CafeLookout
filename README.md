@@ -9,7 +9,7 @@
 
 ## Home Page
 
-![Home Page](https://github.com/ArlatPS/cafeLookout/tree/master/pictures/home.png)
+![Home Page](https://github.com/ArlatPS/cafeLookout/blob/master/pictures/home.png?raw=true)
 
 ## Technologies
 
@@ -29,3 +29,9 @@
 - **infinite scroll** on page with cafes list
 - user input sanitization before storage in database
 - **middleware** for user authentication and authorization 
+
+## Cafes List
+![Cafes List](https://github.com/ArlatPS/cafeLookout/blob/master/pictures/cafes.png?raw=true)
+
+## Single Cafe
+![Single Cafe](https://github.com/ArlatPS/cafeLookout/blob/master/pictures/cafe.png?raw=true)
