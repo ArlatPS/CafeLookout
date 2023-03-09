@@ -1,4 +1,4 @@
-# Cafe Lookout
+# [Cafe Lookout](https://cafelookout.onrender.com/) 
 ## My first project - site for searching, adding and reviewing cafes
 
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
@@ -29,6 +29,9 @@
 - **infinite scroll** on page with cafes list
 - user input sanitization before storage in database
 - **middleware** for user authentication and authorization 
+- hosted on **Render** - link below
+
+## [Link to this website hosted on Render](https://cafelookout.onrender.com/)
 
 ## Cafes List
 ![Cafes List](https://github.com/ArlatPS/cafeLookout/blob/master/pictures/cafes.png?raw=true)
