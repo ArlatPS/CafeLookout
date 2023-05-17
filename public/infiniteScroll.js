@@ -40,7 +40,7 @@ const createCard = (index) => {
     colOne.classList.add("col-12");
 
     const img = document.createElement("img")
-    img.setAttribute("src", cafes[index].images[0].url);
+    img.setAttribute("src", cafes[index].images[0]?.url || "https://res.cloudinary.com/dwszziymi/image/upload/v1671121806/CafeLookout/petr-sevcovic-qE1jxYXiwOA-unsplash_a2xdfq.jpg");
     img.setAttribute("alt", "img");
     img.classList.add("img-fluid");
     colOne.appendChild(img);
@@ -76,7 +76,7 @@ const createCard = (index) => {
     const button = document.createElement("a");
     button.classList.add("btn");
     button.setAttribute("href", "/cafes/" + cafes[index]._id);
-    button.innerHTML = "View" + cafes[index].title;
+    button.innerHTML = "View " + cafes[index].title;
     cardBody.appendChild(button);
 
     colTwo.appendChild(cardBody)
