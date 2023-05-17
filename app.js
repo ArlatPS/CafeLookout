@@ -1,7 +1,7 @@
 //import DB url from env
 import * as dotenv from 'dotenv'
 dotenv.config()
-const dbUrl = process.env.dbUrl;
+const dbUrl = process.env.DBUrl;
 
 //imports for server
 import express from "express";
